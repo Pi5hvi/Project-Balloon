@@ -8,23 +8,7 @@ void setup() {
   frameRate(60);
   background(0);
   println("The num in setup: "+ points.size());
-  /*PVector a= new PVector(0,3);
-  PVector b= new PVector(1,1);
-  PVector c= new PVector(2,2);
-  PVector d= new PVector(4,4);
-  PVector e= new PVector(0,0);
-  PVector f= new PVector(1,2);
-  PVector g= new PVector(3,1);
-  PVector k= new PVector(3,3);
-  points.add(a);
-  points.add(b);
-  points.add(c);
-  points.add(d);
-  points.add(e);
-  points.add(f);
-  points.add(g);
-  points.add(k);*/
-  //points.add(PVector(0,3));
+ 
 }
 
  void draw() {
@@ -185,24 +169,7 @@ void convexHull (ArrayList <PVector> points, int n)
       
       
 }
-  //float ymin = points.get(0).y;int min = 0;
-  /*for (int i = 1; i < n; i++)
-   {
-     float y = points.get(i).y;
- 
-     // Pick the bottom-most or chose the left
-     // most point in case of tie
-     if ((y < ymin) || (ymin == y && points.get(i).x < points.get(min).x))
-        ymin = points.get(i).y; 
-        min = i;
-   }
-    //swap(points[0], points[min]);
-    PVector P1; PVector P2;
-    P1=points.get(0);
-    P2=points.get(min);
-    points.set( 0,P2);
-    points.set(min,  P1);*/
-    //P0=points.get(0);
+  
     
     
   
