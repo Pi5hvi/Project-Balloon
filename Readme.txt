@@ -1,1 +1,2 @@
-Hello jjjjj
+Convex Hull(Graham Scan)
+Using mouse to click on the screen to draw some white points in 2D space as the input. When pushing any buttons on keyboard,the input process is over. Meanwhile, the system will run Graham Scan to find the points which are qualified. At last,using curve to connect the convex hull.  
