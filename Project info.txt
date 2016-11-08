@@ -1,0 +1,19 @@
+1) The concept of the project is as follows:
+
+For any closed non self intersecting curve, 
+if at every point along the curves surface a normal force is applied
+whose magnitude is proportional to and in the same direction as the radius of curvature,
+the curve should expand into a circle without intersecting itself throughout the process.
+
+2) User interaction:
+
+The user will be asked to provide points using a mouse thrugh which a closed loop curve will be fit.
+
+3)What it will look like:
+
+Once the program draws a closed curve through the points the user provides,
+it should expand the curve as stated above to convert it into a circle.
+The challenge here is to initially be able to fit a non self intersecting curve any points the user may provide.
+
+We are also considering adding a button to show the normal forces acting on the curve without making it look too messy.
+  
