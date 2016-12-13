@@ -16,4 +16,9 @@ it should expand the curve as stated above to convert it into a circle.
 The challenge here is to initially be able to fit a non self intersecting curve any points the user may provide.
 
 We are also considering adding a button to show the normal forces acting on the curve without making it look too messy.
-  
+
+
+
+
+
+Instructions to run the program are in Readme.txt
